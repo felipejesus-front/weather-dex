@@ -38,12 +38,12 @@ function useFetch(): UseFetch {
 			if (response.ok === false) throw new Error(json.message);
 		} catch (err: any) {
 			json = null;
-			console.log({ message: err.message });
+
 			setError({ message: err.message });
 		} finally {
 			setData(json);
 			setLoading(false);
-			console.log(data);
+
 			return { response, json };
 		}
 	}, []);

@@ -15,8 +15,6 @@ function SearchResult() {
 		request(
 			`${WEATHER_API_URL}/weather?q=${city}&units=metric&appid=${WEATHER_API_KEY}`
 		);
-
-		console.log(error);
 	}, []);
 
 	if (error) return <ErrorComponent error={error.message} />;

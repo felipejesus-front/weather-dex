@@ -98,8 +98,6 @@ function usePokemonInfo(climate: WeatherConditions, temperature: number) {
 		if (pokemonType != null) fetchPokemon();
 	}, [pokemonType]);
 
-	console.log(pokemonType);
-
 	return { pokemon, loading, error, pokemonType };
 }
 

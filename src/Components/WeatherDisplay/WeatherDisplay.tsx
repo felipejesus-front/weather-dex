@@ -1,5 +1,3 @@
-import React from "react";
-
 interface WeatherDisplayProps {
 	cityName: string;
 	temperature: number;

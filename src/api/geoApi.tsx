@@ -6,3 +6,7 @@ export const geoApiOptions = {
 	},
 };
 export const GEO_API_URL = "https://wft-geo-db.p.rapidapi.com/v1/geo";
+
+//Pretendia utilizar essa api pra poder selecionar uma cidade com mais precisão,
+//porém percebi que iria levar mais tempo do que eu tinha, então abortei essa ideia
+//temporariamente. Achei interessante deixar o arquivo aqui e explicar o motivo dele.
