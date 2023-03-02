@@ -76,7 +76,7 @@ function PokemonCard({ temperature, mainWheater }: PokemonCardProps) {
 					</div>
 					<img
 						className="absolute w-20 right-5 top-5"
-						src={`src/Assets/type-icons/${pokemonType}.svg`}
+						src={`./src/Assets/type-icons/${pokemonType}.svg`}
 						alt={pokemonType}
 					/>
 
