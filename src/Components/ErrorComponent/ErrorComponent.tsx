@@ -13,14 +13,17 @@ function ErrorComponent(Props: ErrorComponentProps) {
 				alt="Slowpoke"
 			/>
 			<p className="mt-10 text-4xl leading-10 font-normal text-neutral-50 text-center">
-				Oops! We found an error: {Props.error}
+				Oops! We found an error:{" "}
+				<span className="text-orange-500 font-bold capitalize">
+					{Props.error}
+				</span>
 			</p>
 
 			<Link
 				className=" bg-neutral-700 rounded-lg text-center px-8 py-4 mt-20 mb-20 text-2xl leading-7 font-medium text-neutral-50 hover:scale-105 transition-all duration-300 drop-shadow-2xl hover:text-orange-500"
 				to="/"
 			>
-				Try another city!
+				Try Another City!
 			</Link>
 		</div>
 	);
