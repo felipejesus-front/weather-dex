@@ -19,7 +19,7 @@ function CitySelect() {
 	};
 
 	return (
-		<div className="w-[800px] relative lg:w-[90%] group">
+		<div className="w-[800px] relative lg:w-[90%] group drop-shadow-2xl">
 			<button
 				onClick={goToSearch}
 				className="absolute right-0 p-5 rounded-tr-full rounded-br-full group-focus-within:scale-125 transition duration-300
